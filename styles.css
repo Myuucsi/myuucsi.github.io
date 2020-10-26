@@ -1,0 +1,89 @@
+
+@font-face{
+  font-family: "Fonda";
+  src: url("/assets/Fondamento-Italic.ttf");
+  font-weight: 300;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 80px 0px 0px;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  li.navbar {
+    float: right;
+  }
+
+  li.navbarl {
+    float: left;
+  }
+  
+  li.navbarl img {
+    display: block;
+    padding: 5px 60px;
+   
+  }
+
+  li.navbar a {
+    display: block;
+    color: #ff0099;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: underline;
+  }
+  
+  li.navbar a:hover {
+    background-color: #111;
+  }
+  
+  body {
+    background-image: url("/assets/stardust.png");
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0 10% 0 10%;
+  }
+  
+  h1{
+    color: blanchedalmond;
+    font-size: 70px;
+  }
+  
+  h1.cim{
+      text-align: center;
+  }
+
+  h2{
+      color: #ff0099;
+      font-size: 40px;
+  }
+
+  h3{
+color: #ff0099;
+font-size: 30px;
+padding: 0 0 0px 30px;
+font-style: italic;
+  }
+
+  p{
+    color: white;
+  font-size: 20px;
+    
+  }
+
+  p.bem{
+    font-family: 'Fonda';
+  }
+
+  p.elvalaszto{
+    text-align: center;
+    font-size: 50px;
+  
+}
+
+p.def{
+    padding: 0 0 0 30px;
+    font-style: oblique;
+    
+}
